@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=" My Portfolio Website To The work i have done so far, the services i provide and all my professional life"
+    />
+
+    <meta name="keywords" content="HTML,CSS,JavaSript,Portfolio Website" />
+    <meta name="aurthor" content="Tanzir Ibne ali" />
+
+    <title>Tanzir Ibne Ali</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ============================
+    header section start
+    ============================== -->
+
+    <header class="header">
+      <span class="logo">Tanzir Ibne Ali</span>
+
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a href="./index.html" class="navbar-link home-link"> Home</a></li>
+          <li>
+            <a href="./about.html" class="navbar-link about-link"> About</a>
+          </li>
+          <li>
+            <a href="./service.html" class="navbar-link services-link"
+              >Services</a
+            >
+          </li>
+          <li><a href="#" class="navbar-link protfolio-link">Protfolio</a></li>
+          <li>
+            <a href="./contact.html" class="navbar-link contact-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon class="mobile-nav-icon" name="menu"></ion-icon>
+        <ion-icon class="mobile-nav-icon" name="close"></ion-icon>
+      </div>
+    </header>
+
+    <!-- ============================
+    header section end
+    ============================== -->
+
+    <!-- ============================
+    contact us section start
+    ============================== -->
+
+    <section class="section section-contact">
+      <div class="container">
+        <h2 class="common-heading">contact us</h2>
+      </div>
+
+      <!-- google map -->
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.38703395054!2d90.27919769636911!3d23.780573259692186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1676749552820!5m2!1sen!2sbd"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <!-- google map -->
+
+      <div class="section-contact-main contact-container">
+        <form action="https://formspree.io/f/xlekbbjk" method="POST">
+          <div class="grid grid-two-column">
+            <div>
+              <label for="username"></label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="username"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div>
+              <label for="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="demo@mail.com"
+                required
+                autocomplete="off"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="subject"></label>
+            <input
+              type="text"
+              name="subject"
+              placeholder="subject"
+              id="subject"
+              required
+              autocomplete="off"
+            />
+          </div>
+          <div>
+            <label for="taxtarea"></label>
+            <textarea
+              placeholder="Write Your Msg Over Here"
+              name="taxtarea"
+              id="taxtarea"
+              cols="30"
+              rows="10"
+              required
+              autocomplete="off"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" name="submit" id="submit" class="btn" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============================
+
+
+         <!-- ============================
+    footer section start
+    ============================== -->
+
+    <footer class="section-footer section">
+      <div class="container grid grid-four-column">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos error repellendus hic saepe fuga ad culpa eaque suscipit
+            illum. Itaque cupiditate ullam architecto libero.
+          </p>
+        </div>
+        <!-- end -->
+        <div class="f-links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">home</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">about</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">services</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">portfolio</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+        <div class="f-services">
+          <h3>Services</h3>
+          <ul>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">web design</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">web development</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">mern project</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">online classes</a>
+            </li>
+            <li>
+              <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+              <a href="#">youtube course</a>
+            </li>
+          </ul>
+        </div>
+        <!-- end -->
+        <div class="f-address">
+          <h3>Have a Questions</h3>
+          <address>
+            <div>
+              <p>
+                <span>
+                  <ion-icon name="location-outline"></ion-icon>
+                </span>
+                <a href="#">dhaka,bangladesh</a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span>
+                  <ion-icon name="call-outline"></ion-icon>
+                </span>
+                <a href="tel:+8801580841070"> +880 1580841070 </a>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span>
+                  <ion-icon name="mail-outline"></ion-icon>
+                </span>
+                <a href="mailto:tanziribneali@gmail.com">
+                  tanziribneali@gmail.com</a
+                >
+              </p>
+            </div>
+          </address>
+        </div>
+      </div>
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="#" target="_blank">
+            <ion-icon name="logo-instagram" class="icons"></ion-icon>
+          </a>
+          <a href="#" target="_blank">
+            <ion-icon name="logo-facebook" class="icons"></ion-icon>
+          </a>
+          <a href="#" target="_blank">
+            <ion-icon name="logo-youtube" class="icons"></ion-icon>
+          </a>
+        </div>
+
+        <div class="f-credits">
+          <p>
+            Copyright ©2023 All Right reserved | This Template Made With ❤ By
+            Tanzir Ibne Ali.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============================
+        footer section end
+        ============================== -->
+
+    <script>
+      const mobile_nav = document.querySelector(".mobile-navbar-btn");
+      const headerElem = document.querySelector(".header");
+
+      mobile_nav.addEventListener("click", () => {
+        headerElem.classList.toggle("active");
+      });
+    </script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
